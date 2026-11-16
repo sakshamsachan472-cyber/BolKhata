@@ -6,7 +6,7 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
- 
+
 * { box-sizing: border-box; }
 
 body { min-width: 320px; margin: 0; background: #f4f7f5; color: #1d2b24; }
@@ -94,11 +94,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .quick-add input { width: 100%; min-width: 0; min-height: 46px; padding: 0 13px; border: 1px solid #7b8880; border-radius: 9px; background: #fbfcfb; color: #1d2b24; }
 .quick-add input:focus { border-color: #399565; box-shadow: 0 0 0 3px rgba(57,149,101,.12); }
 .quick-add input:focus-visible { outline: 3px solid #155c39; outline-offset: 3px; }
-.quick-add input::placeholder { color: #5f6b64; } 
+.quick-add input::placeholder { color: #5f6b64; }
 .quick-add-btn { min-height: 46px; padding: 0 17px; border: 0; border-radius: 9px; background: #287348; color: #fff; font-weight: 700; cursor: pointer; transition: background .15s ease, transform .15s ease; }
 .hint { grid-column: 1 / -1; margin: -5px 0 0; color: #5f6b64; font-size: .82rem; }
 .status { grid-column: 1 / -1; min-height: 42px; padding: 11px 13px; border: 1px solid #e2ebe5; border-radius: 8px; background: #f5f9f6; color: #52635a; font-size: .88rem; }
-.voice-mode-notice { margin: 0; }
 .voice-review { grid-column: 1 / -1; padding: 16px; border: 1px solid #d5e4d9; border-radius: 10px; background: #f8fbf8; }
 .voice-review h3 { margin: 0 0 8px; font-size: 1rem; }
 .voice-transcript { margin: 0 0 10px; color: #52635a; overflow-wrap: anywhere; }
@@ -119,7 +118,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .panel-icon { display: grid; width: 40px; height: 40px; flex: 0 0 auto; place-items: center; border-radius: 11px; font-size: 1.1rem; font-weight: 800; }
 .credit-icon { background: #fff3e8; color: #bd6b25; }
 .order-icon { background: #eaf3ff; color: #3974ad; }
-.paid-icon { background: #e8f5ed; color: #287348; } 
+.paid-icon { background: #e8f5ed; color: #287348; }
 .delivered-icon { background: #e8f5ed; color: #287348; }
 .ledger-panel { grid-column: 1 / -1; }
 .ledger-filter { display: flex; max-width: 420px; flex-direction: column; gap: 6px; margin-top: 15px; }
